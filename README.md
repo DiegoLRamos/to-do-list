@@ -17,7 +17,7 @@
 </h4>
 
 <p align="center">
-  <img src="todolist.gif" alt="" width="600px" height="300px">
+  <img src="todolist.gif" alt="" width="400px" height="300px">
 </p>
 
 <p align="center">
