@@ -86,6 +86,7 @@ body{
     width: fit-content;
     border: none;
     cursor: pointer;
+    background: transparent;
     color: var(--orange);
 }
 
