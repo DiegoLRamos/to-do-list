@@ -17,6 +17,7 @@ let tarefas = [];
 if(localStorage.getItem('tarefas')){
     tarefas = JSON.parse(localStorage.getItem('tarefas'));
     render();
+    
 }else{
     localStorage.setItem('tarefas',JSON.stringify(tarefas));
 }
@@ -66,18 +67,22 @@ function render() {
   
 }
 
+
 // TEMA DA APLICAÇÃO
 function alteraTema(){
     let body = document.querySelector('body');
     let tema = body.classList.toggle('themaClaro');
   
-    if(tema){
-        btnTema.style.color = '#6f1abd';
-        btnAddTask.classList.remove('btnAddTask');
-        btnAddTask.classList.toggle('btnAddTaskDark');
-    } else{
+    if(!tema){
         btnTema.style.color = '#f57800'; 
         btnAddTask.classList.toggle('btnAddTaskDark');
         btnAddTask.classList.add('btnAddTask');
+        inputTask.focus();
+
+    } else{
+        btnTema.style.color = '#6f1abd';
+        btnAddTask.classList.remove('btnAddTask');
+        btnAddTask.classList.toggle('btnAddTaskDark');
+        inputTask.focus();
     }
 }

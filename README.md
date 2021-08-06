@@ -8,7 +8,7 @@
 
 <h3 align="center">
   Deploy da Aplicação com Git Pages:
-  <a href="" target="__blank">ACESSE AQUI </p>
+  <a href="https://to-do-list.diegolramos.repl.co" target="__blank">ACESSE AQUI </p>
 </h3>
 
 
@@ -16,6 +16,9 @@
   Status: Finalizado :white_check_mark:
 </h4>
 
+<p align="center">
+  <img src="todolist.gif" alt="" width="600px" height="300px">
+</p>
 
 <p align="center">
   Feito com :heart:
