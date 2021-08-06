@@ -1,0 +1,127 @@
+:root{
+    --purple: #6f1abd;
+    --orange: #f57800;
+    --white: #FFFFFF;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color: var(--purple);
+    color: var(--white);
+    transition: 0.3s;
+} 
+
+.themaClaro{
+    background-color: var(--orange);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.addTask{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#inputTask{
+    border: none;
+    padding: 10px;
+    width: 40%;
+    font-size: 20px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.btnAddTask,
+.btnAddTaskDark{
+    border: none;
+    cursor: pointer;
+    width: 10%;
+    background-color: var(--orange);
+    color: var(--white);
+    font-size: 16px;
+    font-weight: bold;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    transition: 0.3s;
+}
+
+.btnAddTask:hover{
+    background-color: #ac6217;
+}
+
+.btnAddTaskDark{
+    background-color: var(--purple);
+    color: var(--white);
+}
+
+.btnAddTaskDark:hover{
+    background-color: #51138c;
+}
+
+#tema{
+    position: relative;
+    top: -220px;
+    margin: 0px 20px;
+    font-size: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: var(--orange);
+}
+
+.erro{
+    outline-color: red;
+}
+
+.buttonDelete{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+}
+
+.buttonDelete i{
+    color: var(--white);
+    font-size: 18px;
+}
+
+#listaTarefas{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tasks{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 5px;
+    width: 50%;
+}
+
+.tasks p {
+    width: 80%;
+}

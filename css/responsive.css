@@ -1,0 +1,28 @@
+@media (max-width: 576px) { 
+    #inputTask{
+        width: 60%;
+    }
+    
+    .btnAddTask,
+    .btnAddTaskDark{
+        width: 30%;
+    }
+
+    .tasks{
+        width: 90%;
+    }  
+}
+
+@media (min-width:577px) and (max-width: 768px) {    
+    .btnAddTask,
+    .btnAddTaskDark{
+        width: 20%;
+    } 
+}
+
+@media (min-width: 769px) and (max-width: 992px) { 
+    .btnAddTask,
+    .btnAddTaskDark{
+        width: 15%;
+    } 
+}
