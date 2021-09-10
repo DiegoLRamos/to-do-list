@@ -7,8 +7,8 @@
 </p>
 
 <h3 align="center">
-  Deploy da Aplicação com Replit:
-  <a href="https://to-do-list.diegolramos.repl.co" target="__blank">ACESSE AQUI </p>
+  Deploy da Aplicação com Vercel:
+  <a href="https://to-do-list-diegolramos.vercel.app/" target="__blank">ACESSE AQUI </p>
 </h3>
 
 
